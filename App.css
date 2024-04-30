@@ -1,0 +1,362 @@
+                                                                        * {
+                                                                            margin: 0;
+                                                                            font-family: 'Roboto', sans-serif;
+                                                                        }
+                                                                        /*HEADER*/
+                                                                        
+                                                                        header {
+                                                                            display: flex;
+                                                                            align-items: center;
+                                                                            padding: 5px;
+                                                                            box-shadow: 10px;
+                                                                            height: 60px;
+                                                                            box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+                                                                        }
+                                                                        
+                                                                        .logo img {
+                                                                            width: 80px;
+                                                                        }
+                                                                        
+                                                                        header .headerword {
+                                                                            padding-left: 5px;
+                                                                        }
+                                                                        
+                                                                        header .headerword h3 {
+                                                                            font-weight: lighter;
+                                                                        }
+                                                                        /*HEADER*/
+                                                                        /*FIRST SECTION*/
+                                                                        
+                                                                        section #fcourses {
+                                                                            padding: 10px;
+                                                                            font-size: 0.95em;
+                                                                            font-weight: bold;
+                                                                            background-color: rgb(255, 123, 0);
+                                                                            color: white;
+                                                                        }
+                                                                        
+                                                                        section #fcourses span {
+                                                                            text-decoration: underline;
+                                                                        }
+                                                                        
+                                                                        section #fcourses span:hover {
+                                                                            cursor: pointer;
+                                                                        }
+                                                                        /*FIRST SECTION*/
+                                                                        /*SECOND SECTION*/
+                                                                        
+                                                                        #fhero {
+                                                                            display: flex;
+                                                                            width: 100%;
+                                                                            flex-direction: column;
+                                                                        }
+                                                                        
+                                                                        #fhero .learn {
+                                                                            flex-basis: 50%;
+                                                                        }
+                                                                        
+                                                                        #fhero .learn:nth-child(1) {
+                                                                            padding: 20px;
+                                                                        }
+                                                                        
+                                                                        #fhero .learn h1 {
+                                                                            font-size: 1.5em;
+                                                                            font-weight: lighter;
+                                                                        }
+                                                                        
+                                                                        #fhero .learn p {
+                                                                            font-size: 1.2em;
+                                                                            padding-top: 15px;
+                                                                            line-height: 1.5em;
+                                                                            padding-left: 10px;
+                                                                        }
+                                                                        
+                                                                        #fhero .learn .learn-image {
+                                                                            margin: 0px;
+                                                                            padding: 0px;
+                                                                        }
+                                                                        
+                                                                        #fhero .learn .learn-image img {
+                                                                            width: 680px;
+                                                                            height: 350px;
+                                                                        }
+                                                                        
+                                                                        #fhero .learn:nth-child(2) {
+                                                                            display: none;
+                                                                        }
+                                                                        /*SECOND SECTION*/
+                                                                        /*THIRD SECTION*/
+                                                                        
+                                                                        #Acadcose {
+                                                                            width: 100%;
+                                                                            background-color: rgba(0, 102, 255, 0.774);
+                                                                            padding-bottom: 20px;
+                                                                        }
+                                                                        
+                                                                        #Acadcose .acadose-head h2 {
+                                                                            margin-left: 5%;
+                                                                            color: white;
+                                                                            font-weight: lighter;
+                                                                            padding: 40px 0px 20px 0px;
+                                                                        }
+                                                                        
+                                                                        #Acadcose .container {
+                                                                            display: flex;
+                                                                            width: 90%;
+                                                                            margin: 0 auto;
+                                                                            flex-wrap: wrap;
+                                                                            flex-direction: column;
+                                                                        }
+                                                                        
+                                                                        #Acadcose .container .courses {
+                                                                            flex-basis: 23%;
+                                                                            margin: 5px;
+                                                                            margin-left: 15px;
+                                                                            background-color: white;
+                                                                            border-radius: 5px;
+                                                                            -webkit-border-radius: 5px;
+                                                                            -moz-border-radius: 5px;
+                                                                            -ms-border-radius: 5px;
+                                                                            -o-border-radius: 5px;
+                                                                            box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+                                                                        }
+                                                                        
+                                                                        #Acadcose .container .courses h3 {
+                                                                            padding: 50px 0px 50px 10px;
+                                                                        }
+                                                                        
+                                                                        #Acadcose .container .courses h3:hover {
+                                                                            cursor: pointer;
+                                                                        }
+                                                                        
+                                                                        #Acadcose .container .courses p {
+                                                                            padding: 0px 15px 120px 10px;
+                                                                            line-height: 1.5em;
+                                                                        }
+                                                                        
+                                                                        .courses .courses-img img {
+                                                                            width: 50px;
+                                                                            padding: 10px;
+                                                                        }
+                                                                        
+                                                                        .courses .courses-img:hover {
+                                                                            cursor: pointer;
+                                                                        }
+                                                                        /*THIRD SECTION*/
+                                                                        /*FOURTH SECTION*/
+                                                                        
+                                                                        #instructor {
+                                                                            width: 100%;
+                                                                        }
+                                                                        
+                                                                        #instructor h1 {
+                                                                            width: 85%;
+                                                                            margin: 0 auto;
+                                                                            padding: 30px 0 30px 0px;
+                                                                            font-weight: lighter;
+                                                                        }
+                                                                        
+                                                                        .instruct-container {
+                                                                            width: 85%;
+                                                                            margin: 0 auto;
+                                                                            display: flex;
+                                                                            flex-wrap: wrap;
+                                                                            box-sizing: border-box;
+                                                                        }
+                                                                        
+                                                                        .instruct {
+                                                                            display: flex;
+                                                                            background-color: rgba(238, 234, 234, 0.945);
+                                                                            margin-bottom: 40px;
+                                                                            box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+                                                                        }
+                                                                        
+                                                                        .instruct-text h4 {
+                                                                            padding: 20px;
+                                                                            border-bottom: 1px solid grey;
+                                                                            font-weight: lighter;
+                                                                        }
+                                                                        
+                                                                        .instruct-text p {
+                                                                            margin: 0px auto;
+                                                                            padding: 18px;
+                                                                            line-height: 1.5em;
+                                                                            font-weight: 10px;
+                                                                        }
+                                                                        
+                                                                        .instruct-image {
+                                                                            display: none;
+                                                                        }
+                                                                        /*FOURTH SECTION*/
+                                                                        /*FIFTH SECTION*/
+                                                                        
+                                                                        .mini-course {
+                                                                            width: 85%;
+                                                                            margin: 0 auto;
+                                                                            line-height: 1.5em;
+                                                                        }
+                                                                        
+                                                                        .mini-course p {
+                                                                            margin: 20px 0 30px 0;
+                                                                        }
+                                                                        
+                                                                        .mini-course h1 {
+                                                                            font-weight: lighter;
+                                                                        }
+                                                                        
+                                                                        .min-course-wrap {
+                                                                            display: flex;
+                                                                            flex-direction: row;
+                                                                            justify-content: space-between;
+                                                                            flex-wrap: wrap;
+                                                                            flex-direction: column;
+                                                                            margin-bottom: 20px;
+                                                                        }
+                                                                        
+                                                                        .min-course {
+                                                                            text-align: center;
+                                                                            background-color: rgba(238, 234, 234, 0.945);
+                                                                            box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+                                                                            flex-basis: 20%;
+                                                                            padding: 20px;
+                                                                            margin-bottom: 20px;
+                                                                        }
+                                                                        
+                                                                        .min-course:hover {
+                                                                            cursor: pointer;
+                                                                        }
+                                                                        
+                                                                        .min-image img {
+                                                                            width: 50px;
+                                                                        }
+                                                                        /*FIFTH SECTION*/
+                                                                        /*FOOTER*/
+                                                                        /*FIRST SECTION*/
+                                                                        
+                                                                        #add-resource {
+                                                                            background-color: rgba(238, 234, 234, 0.945);
+                                                                        }
+                                                                        
+                                                                        #add-resource h3 {
+                                                                            padding: 25px 0px 25px;
+                                                                            width: 85%;
+                                                                            margin: 0 auto;
+                                                                            font-weight: lighter;
+                                                                        }
+                                                                        
+                                                                        .resource {
+                                                                            width: 80%;
+                                                                            margin: 0 auto;
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            padding: 30px 0px 50px 0px;
+                                                                        }
+                                                                        
+                                                                        .resource-link {
+                                                                            text-align: center;
+                                                                            flex-basis: 20%;
+                                                                            display: flex;
+                                                                            padding: 5px;
+                                                                        }
+                                                                        
+                                                                        .resource-link:hover {
+                                                                            cursor: pointer;
+                                                                        }
+                                                                        
+                                                                        .link-text {
+                                                                            padding-top: 10px;
+                                                                            flex-basis: 80%;
+                                                                            text-align: center;
+                                                                            margin: 0px 25% 0px 25%;
+                                                                        }
+                                                                        
+                                                                        .link-image {
+                                                                            flex-basis: 20%;
+                                                                        }
+                                                                        /*FIRST SECTION*/
+                                                                        /*SECOND SECTION*/
+                                                                        
+                                                                        #footer-end {
+                                                                            margin-left: 52%;
+                                                                            padding: 20px;
+                                                                            display: none;
+                                                                        }
+                                                                        
+                                                                        .footer-links {
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                        }
+                                                                        
+                                                                        .end-link {
+                                                                            padding: 10px;
+                                                                            transition: 1s ease-out;
+                                                                            -webkit-transition: 1s ease-out;
+                                                                            -moz-transition: 1s ease-out;
+                                                                            -ms-transition: 1s ease-out;
+                                                                            -o-transition: 1s ease-out;
+                                                                            font-size: 0.8em;
+                                                                        }
+                                                                        
+                                                                        .end-link:hover {
+                                                                            background-color: rgba(218, 213, 213, 0.945);
+                                                                            cursor: pointer;
+                                                                        }
+                                                                        /*SECOND SECTION*/
+                                                                        /*MEDIA QUERY*/
+                                                                        
+                                                                        @media (min-width:1000px) {
+                                                                            #fhero {
+                                                                                display: flex;
+                                                                                width: 100%;
+                                                                                flex-direction: row;
+                                                                            }
+                                                                            #fhero .learn {
+                                                                                flex-basis: 50%;
+                                                                            }
+                                                                            #fhero .learn:nth-child(1) {
+                                                                                padding: 40px;
+                                                                            }
+                                                                            #fhero .learn h1 {
+                                                                                font-size: 2.8em;
+                                                                                font-weight: lighter;
+                                                                                padding-left: 50px;
+                                                                            }
+                                                                            #fhero .learn p {
+                                                                                font-size: 1.3em;
+                                                                                padding-top: 20px;
+                                                                                line-height: 1.5em;
+                                                                                padding-left: 50px;
+                                                                            }
+                                                                            #fhero .learn .learn-image {
+                                                                                margin: 0px;
+                                                                                padding: 0px;
+                                                                            }
+                                                                            #fhero .learn:nth-child(2) {
+                                                                                display: inline;
+                                                                            }
+                                                                            #Acadcose .container {
+                                                                                display: flex;
+                                                                                width: 90%;
+                                                                                margin: 0 auto;
+                                                                                flex-wrap: wrap;
+                                                                                flex-direction: row;
+                                                                            }
+                                                                            #Acadcose .container .courses {
+                                                                                margin-bottom: 10px;
+                                                                            }
+                                                                            .instruct-image {
+                                                                                display: inline-block;
+                                                                            }
+                                                                            .min-course-wrap {
+                                                                                flex-direction: row;
+                                                                            }
+                                                                            .resource {
+                                                                                flex-direction: row;
+                                                                            }
+                                                                            .resource-link {
+                                                                                display: inline-block;
+                                                                            }
+                                                                            #footer-end {
+                                                                                display: inline-block;
+                                                                            }
+                                                                        }
